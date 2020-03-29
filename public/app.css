@@ -24,7 +24,6 @@ section, footer {
   position: relative;
 }
 
-/* line 30, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .hero {
   background: url("candlelight.jpg") no-repeat;
   background-size: cover;
@@ -39,7 +38,6 @@ section, footer {
   height: 100%;
 }
 
-/* line 39, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .hero__title {
   align-items: center;
   display: flex;
@@ -52,7 +50,6 @@ section, footer {
   max-height: 100px;
 }
 
-/* line 49, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .hero__info {
   position: absolute;
   display: flex;
@@ -63,37 +60,32 @@ section, footer {
 }
 
 @media (max-width: 950px) {
-  /* line 49, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
   .hero__info {
     flex-wrap: wrap;
   }
 }
 
-/* line 58, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .hero__info__schedule {
   float: left;
   display: flex;
 }
 
-/* line 62, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .hero__info__schedule__sessions {
   text-align: right;
   margin-right: 1em;
 }
 
-/* line 65, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .hero__info__schedule__times {
   font-weight: bold;
 }
 
-/* line 67, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .hero__info__address {
   float: left;
 }
 
-/* line 69, C:/Users/Evan/Sites/brockport_umc/assets/app.sass */
 .mission_statement {
   background: #225173;
+  text-align: center;
   width: 100%;
 }
 
@@ -104,7 +96,24 @@ section, footer {
   margin-top: 0;
   width: 60%;
   color: #fdfdfd;
-  text-align: center;
+}
+
+.tithely-give-btn {
+  background-color: #fad163;
+  border-radius: 4px;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 500;
+  margin: 1.5em 0 0;
+  padding: 1em 2em;
+  transition: background-color 0.25s;
+}
+
+.tithely-give-btn:hover {
+  background-color: #fff7d7;
 }
 
 .pastor {
