@@ -155,6 +155,10 @@ section, footer {
   color: #fdfdfd;
 }
 
+.footer a {
+  color: #fad163; 
+}
+
 .footer .inner-wrapper {
   display: flex;
 }
