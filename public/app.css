@@ -98,21 +98,21 @@ section, footer {
   color: #fdfdfd;
 }
 
-.tithely-give-btn {
+.action-btn {
   background-color: #fad163;
   border-radius: 4px;
   border: none;
+  box-shadow: 2px 2px 15px black;
   color: #333;
   cursor: pointer;
   display: inline-block;
   font-size: 19px;
-  font-weight: 500;
-  margin: 1.5em 0 0;
+  font-weight: bold;
   padding: 1em 2em;
   transition: background-color 0.25s;
 }
 
-.tithely-give-btn:hover {
+.action-btn:hover {
   background-color: #fff7d7;
 }
 
@@ -203,4 +203,13 @@ section, footer {
   margin-top: 3em;
   opacity: 0.75;
   width: 80%;
+}
+
+.makenna-memorial {
+  background: #702963 url("makenna-bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+  text-align: center;
 }
